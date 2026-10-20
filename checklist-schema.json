@@ -1,0 +1,113 @@
+[
+  {
+    "key": "engineId",
+    "label": "ID Mesin",
+    "type": "text"
+  },
+  {
+    "key": "machineCode",
+    "label": "Kode Mesin",
+    "type": "text"
+  },
+  {
+    "key": "serial",
+    "label": "SN / No Seri",
+    "type": "text"
+  },
+  {
+    "key": "installedPower",
+    "label": "DT / Daya Terpasang",
+    "type": "number"
+  },
+  {
+    "key": "availablePower",
+    "label": "Daya Mampu (kW)",
+    "type": "number"
+  },
+  {
+    "key": "load",
+    "label": "Beban (kW)",
+    "type": "number"
+  },
+  {
+    "key": "kwh",
+    "label": "Stand kWh (kWh)",
+    "type": "number"
+  },
+  {
+    "key": "fuel",
+    "label": "Stand BBM (L)",
+    "type": "number"
+  },
+  {
+    "key": "phaseR",
+    "label": "Phasa R",
+    "type": "number"
+  },
+  {
+    "key": "phaseS",
+    "label": "Phasa S",
+    "type": "number"
+  },
+  {
+    "key": "phaseT",
+    "label": "Phasa T",
+    "type": "number"
+  },
+  {
+    "key": "oil",
+    "label": "Tekanan Oli (bar)",
+    "type": "number"
+  },
+  {
+    "key": "temp",
+    "label": "Temperatur Air Pendingin (°C)",
+    "type": "number"
+  },
+  {
+    "key": "voltage",
+    "label": "Tegangan (V)",
+    "type": "number"
+  },
+  {
+    "key": "frequency",
+    "label": "Frekuensi (Hz)",
+    "type": "number"
+  },
+  {
+    "key": "cosPhi",
+    "label": "Cos Phi",
+    "type": "number",
+    "max": 1
+  },
+  {
+    "key": "hours",
+    "label": "Jam Kerja Mesin (jam)",
+    "type": "number"
+  },
+  {
+    "key": "machineStatus",
+    "label": "Status Mesin",
+    "type": "text"
+  },
+  {
+    "key": "production",
+    "label": "kWh Produksi (kWh)",
+    "type": "number"
+  },
+  {
+    "key": "fuelUsage",
+    "label": "Pemakaian BBM (L)",
+    "type": "number"
+  },
+  {
+    "key": "fuelType",
+    "label": "Jenis Bahan Bakar",
+    "type": "text"
+  },
+  {
+    "key": "note",
+    "label": "Keterangan",
+    "type": "text"
+  }
+]
