@@ -1,0 +1,40 @@
+{
+  "version": "V05-revisi-2026-11-09",
+  "timezone": "Asia/Jakarta",
+  "offset": "+07:00",
+  "key": [
+    "unitId",
+    "machineId",
+    "date",
+    "time"
+  ],
+  "pairing": "For each machine/date, choose latest identical HH:mm on current and previous day inside the daily selected time window.",
+  "formula": "current - previous",
+  "metrics": {
+    "production": {
+      "source": "kwh",
+      "unit": "kWh"
+    },
+    "fuelUsage": {
+      "source": "fuel",
+      "unit": "Liter"
+    },
+    "workingHours": {
+      "source": "hours",
+      "unit": "Jam"
+    },
+    "oilUsage": {
+      "source": "oilCumulative",
+      "unit": "Liter"
+    }
+  },
+  "legacyOil": "oil is pressure (bar); do not convert dailyOil/oilUsage to cumulative.",
+  "missing": null,
+  "drafts": "excluded",
+  "pending": "optional; labelled sementara",
+  "duplicate": "latest applicable revision per record and slot",
+  "rangeTotal": "sum valid per-machine daily results once",
+  "dateFilter": "inclusive calendar date range",
+  "timeFilter": "inclusive HH:mm window applied on every date",
+  "export": "same model; previous-day records only as comparison columns"
+}

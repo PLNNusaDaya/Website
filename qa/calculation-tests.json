@@ -1,0 +1,90 @@
+{
+  "passed": 21,
+  "total": 21,
+  "results": [
+    {
+      "name": "Empat selisih pada jam 08:00; tekanan oli tidak dipakai",
+      "pass": true
+    },
+    {
+      "name": "00:00 harus menghasilkan 350 kWh",
+      "pass": true
+    },
+    {
+      "name": "Rentang 08:00–16:00 memilih pasangan 16:00",
+      "pass": true
+    },
+    {
+      "name": "Jam terakhir tanpa pasangan tidak mengalahkan pasangan yang lebih awal",
+      "pass": true
+    },
+    {
+      "name": "Beberapa hari dijumlahkan sekali per tanggal",
+      "pass": true
+    },
+    {
+      "name": "Pembanding di luar tanggal awal boleh digunakan, tidak menjadi baris ekspor",
+      "pass": true
+    },
+    {
+      "name": "Unit/mesin terpisah sebelum agregasi semua unit",
+      "pass": true
+    },
+    {
+      "name": "Slot duplikat dan pembaruan terbaru hanya dihitung sekali",
+      "pass": true
+    },
+    {
+      "name": "Revisi ID yang sama mengubah nilai, tanpa duplikasi",
+      "pass": true
+    },
+    {
+      "name": "Data kosong / tidak ada jam identik tidak menjadi nol",
+      "pass": true
+    },
+    {
+      "name": "Nilai kosong/invalid pada pasangan terbaru tidak memilih slot meter lain",
+      "pass": true
+    },
+    {
+      "name": "Nol valid, negatif selisih dipertahankan",
+      "pass": true
+    },
+    {
+      "name": "Draft/ditolak dikecualikan; pending berlabel sementara",
+      "pass": true
+    },
+    {
+      "name": "Hapus record memperbarui hasil",
+      "pass": true
+    },
+    {
+      "name": "Batas menit & jam berlaku setiap hari pada rentang multi-hari",
+      "pass": true
+    },
+    {
+      "name": "Perpindahan tahun dan tahun kabisat",
+      "pass": true
+    },
+    {
+      "name": "Migrasi menjaga histori; oil/dailyOil tidak dianggap stand kumulatif",
+      "pass": true
+    },
+    {
+      "name": "Timestamp operasional WIB terpisah dari waktu pengiriman",
+      "pass": true
+    },
+    {
+      "name": "Validasi rentang/angka dan penyimpanan oli",
+      "pass": true
+    },
+    {
+      "name": "Revisi data lama dengan meter top-level tidak mempertahankan angka lama",
+      "pass": true
+    },
+    {
+      "name": "ID unit/mesin yang tidak sesuai tidak tercampur",
+      "pass": true
+    }
+  ]
+}

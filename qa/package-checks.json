@@ -1,0 +1,66 @@
+{
+  "passed": 15,
+  "total": 15,
+  "results": [
+    {
+      "name": "Same embedded reporting model as revised Operator V05",
+      "pass": true
+    },
+    {
+      "name": "All 22 original parameters plus separate cumulative oil",
+      "pass": true
+    },
+    {
+      "name": "Preserved 78 machines, 11 units and Bawean name",
+      "pass": true
+    },
+    {
+      "name": "08:00 gives 400 / 140 / 19 / 3",
+      "pass": true
+    },
+    {
+      "name": "00:00 gives 350 / 125 / 18 / 2",
+      "pass": true
+    },
+    {
+      "name": "Changing window selects shared 16:00 pair",
+      "pass": true
+    },
+    {
+      "name": "All units and multiple dates total correctly",
+      "pass": true
+    },
+    {
+      "name": "Missing previous day remains unknown",
+      "pass": true
+    },
+    {
+      "name": "Three roles retain old pages and new reporting/export access",
+      "pass": true
+    },
+    {
+      "name": "Legacy reports preserved, without fabricated oil or dates",
+      "pass": true
+    },
+    {
+      "name": "Approval permission and review requirements remain",
+      "pass": true
+    },
+    {
+      "name": "Package prototypes share exact website content",
+      "pass": true
+    },
+    {
+      "name": "CSV contains all parameters, deltas and only filtered details",
+      "pass": true
+    },
+    {
+      "name": "XLSX generator matches checked operator workbook byte-for-byte",
+      "pass": true
+    },
+    {
+      "name": "Website inline script parses without network dependencies",
+      "pass": true
+    }
+  ]
+}
